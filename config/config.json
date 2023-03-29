@@ -1,0 +1,15 @@
+{
+  "model": "ggml-tiny.bin",
+
+  "modelPath": "/Users/geon/Documents/GitHub/whisper.cpp/bindings/go/models/",
+  "audioFilePath": "./tmp/",
+  "api": {
+    "port": ":8080"
+  },
+
+  "logging" : {
+    "level":"info"
+  },
+
+  "maximumAudioFileMiBSize" : 80
+}
